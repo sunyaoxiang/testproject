@@ -1,6 +1,5 @@
 package cloneable.java;
 
-import com.sun.tools.javac.Main;
 
 public class MainAction {
     public static void main(String[] args) {
