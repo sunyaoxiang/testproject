@@ -1,7 +1,7 @@
 package study.mvcmodel.java;
 
 /**
- * Created by yaoxiang.sun on 2018/5/2.
+ * Created by yaoxiang.sun on 2018/5/2.1
  */
 public class CarModel {
     private String brand;
