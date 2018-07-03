@@ -40,7 +40,7 @@ import java.util.logging.*;
  * The code to manually setup this error manager can be as simple as the
  * following:
  * <tt><pre>
- *      File dir = new File("path to dir");
+ *      File dir = new File("Path to dir");
  *      FileErrorManager em = new FileErrorManager(dir);
  * </pre></tt>
  *
@@ -50,13 +50,13 @@ import java.util.logging.*;
  * can be as simple as the following:
  * <tt><pre>
  *      #Default FileErrorManager settings.
- *      FileErrorManager.pattern = path to directory
+ *      FileErrorManager.pattern = Path to directory
  * </pre></tt>
  *
  * If properties are not defined, or contain invalid values, then the specified
  * default values are used.
  * <ul>
- * <li>FileErrorManager.pattern the absolute file path to the directory which 
+ * <li>FileErrorManager.pattern the absolute file Path to the directory which
  * will store any failed email messages. (defaults to the value of the system
  * property <tt>java.io.tmpdir</tt>)
  * </ul>
@@ -96,7 +96,7 @@ public class FileErrorManager extends ErrorManager {
      * @throws NullPointerException if <tt>dir</tt> is <tt>null</tt>
      * @throws IllegalArgumentException if <tt>dir</tt> is a
      * <tt>java.io.File</tt> subclass, not a directory, or is not an absolute
-     * path.
+     * Path.
      * @throws SecurityException if a security manager is present and unable
      * to read or write to a given directory.
      */

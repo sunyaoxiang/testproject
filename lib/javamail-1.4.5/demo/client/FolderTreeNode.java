@@ -119,7 +119,7 @@ public class FolderTreeNode extends DefaultMutableTreeNode {
 
     /**
      * override toString() since we only want to display a folder's
-     * name, and not the full path of the folder
+     * name, and not the full Path of the folder
      */
     public String toString() {
 	return folder.getName();
