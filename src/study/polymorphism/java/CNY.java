@@ -8,14 +8,14 @@ public class CNY extends Money {
 
     public CNY(double amount) {
         super(amount);
-        setBankName();
+        setCurrency();
     }
 
     public String toString() {
         return "You have: " + currency + "|" +String.valueOf(getAmount()) + " Money.";
     }
 
-    public void setBankName() {
+    public void setCurrency() {
         this.currency = "CNY";
     }
 

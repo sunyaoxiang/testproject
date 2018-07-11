@@ -19,4 +19,7 @@ public class ICBC extends CNY {
     public void setBankName(String bankName) {
         this.bankName = bankName;
     }
+    public String getBankName() {
+        return this.bankName;
+    }
 }
